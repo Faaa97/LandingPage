@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>A Pen by  Felipe</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div id="header">
+  <h1>PCcito</h1>
+<h2>Una manera fácil de montar el ordenador perfecto</h2>
+</div>
+
+<div id="main">
+  <div id="info">
+    <div id="fotos">
+      <img src="https://pixabay.com/get/eb32b80728f5043ed1584d05fb0938c9bd22ffd41cb0114092f0c77fa4/video-card-2798015_1280.jpg" alt="foto 1">
+      <img src="https://pixabay.com/get/e830b60b2df7023ed1584d05fb0938c9bd22ffd41cb0114092f0c979a0/computer-1574533_1280.jpg" alt="foto 2">
+      <img src="https://pixabay.com/get/e036b20921f51c22d2524518a33219c8b66ae3d018b1104695f8c27c/cooler-933691_1280.jpg" alt="foto 3">
+      <img src="https://pixabay.com/get/e13cb20d2af21c22d2524518a33219c8b66ae3d018b1104695f8c57f/computer-893226_1280.jpg" alt="foto 4">
+    </div>
+    <div id="caracteristicas">
+      <div class="feat">
+        <i class="fa fa-desktop" aria-hidden="true"></i> Permite el diseño de ordenadores de escritorio
+      </div>
+      <div class="feat">
+        <i class="fa fa-money" aria-hidden="true"></i> Recomendación de componentes según presupuesto y otros usuarios que los hayan usado en equipos similares
+      </div>
+      <div class="feat">
+        <i class="fa fa-truck" aria-hidden="true"></i> Enlace a páginas que envien a España con el menor precio
+      </div>
+      <div class="feat">
+        <i class="fa fa-share-alt" aria-hidden="true"></i> Fácil de usar y compartir
+      </div>
+    </div>
+    
+  </div>
+  <div id="formulario">
+    <h2>Suscribirse a notificaciones</h2>
+    <form name="suscripcion" method="get" action="pagina2.html"  onsubmit="return validacion()" accept-charset="UTF-8">
+      <h3>Datos</h3>
+      <div id="datos">
+        <div>Nombre: <input name="nombref" type="text" class="formItem" placeholder="Nombre" required></input></div>
+        <div>Apellidos: <input name="apellidosf" type="text" class="formItem" placeholder="Apellidos" required></input></div>
+        <div>Correo electrónico: <input name="emailf" type="email" class="formItem" placeholder="ejemplo@ej.com" required></input></div>
+      </div>
+      <br>
+      <h3>Funcionalidad más esperada</h3>
+       <div id="encuesta">
+        <div><input type="radio" name="funcionalidad" value="1" required>Facilidad de uso</div>
+        <div><input type="radio" name="funcionalidad" value="2" required>Busca tiendas en España</div>
+        <div><input type="radio" name="funcionalidad" value="3" required>Recomendaciones de componentes</div>
+        <div><input type="radio" name="funcionalidad" value="4" required>Me gusta la idea</div>
+      </div>
+      <h3>Algo más que desee añadir</h3>
+      <textarea placeholder=" Opcional" rows="5"></textarea><br>
+      <div><input type="checkbox" required> Acepto los términos y condiciones</div><br>
+      <input type="submit" value="Enviar">
+    </form>
+  </div>
+</div>
+<div id="footer">
+  Página web creada con codepen.io por Felipe Álvarez Avaria (alu0100969535) <br><br>
+  Todos los derechos reservados.
+</div>
+  
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
