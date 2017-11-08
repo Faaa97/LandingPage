@@ -3,7 +3,7 @@
   padding: 1px;
 }
 body {
-  background: url(img/fondo.jpg);
+  background: url(file:///img/fondo.jpg);
   padding: 1%;
 }
 #header {
