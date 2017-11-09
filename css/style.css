@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto|Lobster');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto|Lobster|Play');
 * {
   padding: 1px;
 }
@@ -68,8 +68,8 @@ body {
   display: -ms-inline-flexbox;
   display: inline-flex;
   height: 25%;
-  font-family: 'Lobster', cursive;
-  font-size: 170%;
+  font-family: 'Play', sans-serif;
+  font-size: 160%;
   -ms-flex-line-pack: center;
       align-content: center;
   -webkit-box-align: center;
